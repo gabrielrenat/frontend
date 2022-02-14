@@ -5,6 +5,9 @@ const Footer = () => {
   return (
     <S.Footer>
       <div>&copy; CopyLeft</div>
+      <div>Saiba Mais</div>
+      <div>Contato</div>
+      <div>Quem Somos?</div>
       <picture>
         <S.A href="https://facebook.com" target="_blank">
           {/*<img src={instaFace} alt="Instagram e Facebook" /> */}

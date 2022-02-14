@@ -2,7 +2,7 @@ import styled from "styled-components"
 import { colors } from "styles/GlobalStyle"
 
 export const Footer = styled.footer`
-  border: 0.5rem solid ${colors.blue};
+  border: 0.5rem solid ${colors.black};
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -10,7 +10,9 @@ export const Footer = styled.footer`
   div {
     width: 50%;
     text-align: center;
+    color: white;
   }
+  background-color: red;
   picture {
     width: 50%;
     display: flex;

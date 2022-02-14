@@ -10,7 +10,7 @@ const Header = () => {
           {/*<img src={logo} alt="Logo do site" />*/}
         </Link>
       </picture>
-      <h1>Loja de Games</h1>
+      <h1>OLX dos Games</h1>
     </S.Header>
   );
 };

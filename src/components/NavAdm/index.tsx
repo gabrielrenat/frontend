@@ -28,10 +28,10 @@ const NavAdm = () => {
       </label>
       <ul>
         <li>
-          <Link to="/adm">Projeto</Link>
+          <Link to="/adm">Publicar Produtos</Link>
         </li>
         <li>
-          <Link to="/adm/faq">Faq</Link>
+          <Link to="/adm/faq">Dúvidas</Link>
         </li>
         <li>
           <Link to="/adm/curtidas">Curtidas</Link>

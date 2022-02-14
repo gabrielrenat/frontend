@@ -1,11 +1,11 @@
 import { CurtirProps } from "interface/style.interface"
 import styled, { css } from "styled-components"
 import { colors } from "styles/GlobalStyle"
+import imagem01 from "assets/img/imagem.jpg"
 
 export const Main = styled.main`
-  background-color: ${colors.green};
-  display: grid;
-  grid-template-columns: auto auto auto;
+  background:url(${imagem01}) no-repeat;
+  background-size: 1024px 900px;
   @media (max-width: 768px) {
     display: grid;
     grid-template-columns: auto auto;
@@ -14,9 +14,18 @@ export const Main = styled.main`
     display: grid;
     grid-template-columns: auto;
   }
-  div {
+  div.layout {
+    width: 100%;
+    background: rgba(190, 0, 0, 0.3);
+    height: 100vh;
+  }
+  div.curtida {
     display: flex;
-    margin-top: 0.8rem;
+  }
+  aside{
+    img{
+      width: 30rem;
+    }
   }
 `
 
@@ -28,6 +37,7 @@ const colorVariations = {
     color: ${colors.red};
   `
 }
+
 
 
 export const Button = styled.button<CurtirProps>`

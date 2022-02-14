@@ -8,6 +8,7 @@ export const Main = styled.main`
     margin: 0.5rem 0;
   }
   table {
+    background-color: red;
     margin-bottom: 1rem;
     width: 100%;
     border-collapse: collapse;

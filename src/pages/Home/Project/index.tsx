@@ -78,13 +78,14 @@ const Home = () => {
           <Header />
           <Nav />
           <S.Main>
+            <div className="layout">
             {projects &&
               projects.map((item) => (
                 <Project key={item.id}>
                   <h4>{item.nome}</h4>
                   <p>{item.projeto}</p>
                   {user && isAfter(parseISO(expiresAt), new Date()) && (
-                    <div>
+                    <div className="curtida">
                       <S.Button
                         type="button"
                         color={
@@ -134,6 +135,7 @@ const Home = () => {
                   )}
                 </Project>
               ))}
+              </div>
           </S.Main>
           <Footer />
         </>

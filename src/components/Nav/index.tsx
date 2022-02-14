@@ -15,10 +15,10 @@ const Nav = () => {
       </label>
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/">Produtos</Link>
         </li>
         <li>
-          <Link to="/faq">FAQ</Link>
+          <Link to="/faq">Dúvidas</Link>
         </li>
       </ul>
       <S.LoginReg>

@@ -6,6 +6,8 @@ export const Main = styled.main`
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: red;
+  border: 0.3rem solid ${colors.black};
   form {
     background-color: ${colors.blue};
     padding: 0.4rem;
@@ -19,7 +21,7 @@ export const Main = styled.main`
     div {
       display: flex;
       margin: 1rem 0;
-      border: 0.2rem solid ${colors.white};
+      border: 0.2rem solid ${colors.black};
       border-radius: 0.5rem;
       input {
         padding: 0.4rem;
