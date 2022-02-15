@@ -16,4 +16,5 @@ export const Main = styled.main`
       padding: 0.5rem;
     }
   }
+  background-color: red;
 `

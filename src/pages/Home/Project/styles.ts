@@ -18,6 +18,7 @@ export const Main = styled.main`
     width: 100%;
     background: rgba(190, 0, 0, 0.3);
     height: 100vh;
+    margin: 0 5px;
   }
   div.curtida {
     display: flex;

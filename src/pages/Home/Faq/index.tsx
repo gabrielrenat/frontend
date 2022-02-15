@@ -27,6 +27,7 @@ const Faq = () => {
           <Header />
           <Nav />
           <S.Main>
+          <div className="layout"> 
             <ol>
               {faqs &&
                 faqs.map((item) => (
@@ -45,6 +46,7 @@ const Faq = () => {
                   <AnchorLink href="#topo">Voltar</AnchorLink>
                 </S.Faq>
               ))}
+          </div>    
           </S.Main>
           <Footer />
         </>

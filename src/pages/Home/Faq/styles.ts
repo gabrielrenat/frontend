@@ -1,11 +1,13 @@
 import styled from "styled-components"
 import { colors } from "styles/GlobalStyle"
+import imagem01 from "assets/img/imagem.jpg"
 
 export const Main = styled.main`
+  background:url(${imagem01}) no-repeat;
+  background-size: 1024px 900px;
   ol {
     margin: 1rem;
     li {
-      margin: 2rem 0;
       a {
         text-decoration: none;
         color: ${colors.black};
@@ -14,6 +16,11 @@ export const Main = styled.main`
         background-color: ${colors.gray};
       }
     }
+  }
+  div.layout {
+    width: 100%;
+    background: rgba(190, 0, 0, 0.3);
+    height: 100vh;
   }
 `
 export const Faq = styled.div`

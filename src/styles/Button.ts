@@ -23,7 +23,7 @@ const Button = styled.button<ButtonProps>`
   margin: auto;
   border: 0;
   border-radius: 0.3rem;
-  color: ${colors.white};
+  color: ${colors.black};
   font-weight: bold;
   padding: 0.3rem;
   cursor: pointer;
